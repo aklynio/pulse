@@ -1,4 +1,5 @@
 .header {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,7 +10,11 @@
         }
     }
     &__official {
+        position: absolute;
         font-weight: 500;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
         font-size: 12px;
         text-align: center;
         color: #FFFFFF;
