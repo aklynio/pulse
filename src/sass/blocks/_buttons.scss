@@ -9,6 +9,10 @@
     text-transform: uppercase;
     border: none;
     border-radius: 5px;
+    transition: 0.3s all;
+    &:hover {
+        background: #646464;
+    }
     &_main {
         width: 303px;
         height: 54px;
