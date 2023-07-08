@@ -217,4 +217,27 @@
             }
         }
     }
+    .feed {
+        padding-bottom: 35px;
+        &__item {
+            margin-top: 44px;
+        }
+        &__img {
+            width: 123px;
+        }
+        &__text {
+            width: 361px;
+        }
+        &__name {
+            font-size: 13px;
+            line-height: 13px;
+        }
+        &__count {
+            font-size: 11px;
+        }
+        &__descr {
+            margin-top: 7px;
+            font-size: 12px;
+        }
+    }
 }

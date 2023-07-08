@@ -154,4 +154,28 @@
             margin-bottom: 15px;
         }
     }
+    .feed {
+        padding-bottom: 39px;
+        &__item {
+            justify-content: space-between;
+            margin-top: 49px;
+        }
+        &__img {
+            width: 137px;
+        }
+        &__text {
+            width: 496px;
+        }
+        &__name {
+            font-size: 14px;
+            line-height: 14px;
+        }
+        &__count {
+            font-size: 12px;
+        }
+        &__descr {
+            margin-top: 8px;
+            font-size: 13px;
+        }
+    }
 }

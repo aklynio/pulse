@@ -208,4 +208,23 @@
             }
         }
     }
+    .feed {
+        padding-bottom: 31px;
+        &__item {
+            flex-direction: column;
+            margin-top: 40px;
+        }
+        &__img {
+            margin: 0 auto;
+        }
+        &__text {
+            margin: 0 auto;
+            margin-top: 7px;
+            width: 263px;
+            text-align: center;
+        }
+        &__descr {
+            text-align: left;
+        }
+    }
 }
