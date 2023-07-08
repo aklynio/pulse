@@ -105,6 +105,10 @@
             font-size: 18px;
             line-height: 27px;
         }
+        label.error {
+            font-size: 14px;
+            margin-bottom: 27px;
+        }
     }
     .feed-form {
         margin-top: 32px;
@@ -282,6 +286,10 @@
         &__descr {
             margin-top: 9px;
             font-size: 13px;
+        }
+        label.error {
+            font-size: 14px;
+            margin-bottom: 20px;
         }
     }
 }

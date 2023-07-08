@@ -38,6 +38,15 @@
         font-weight: 700;
         line-height: normal;
     }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        border: none;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 22px;
+    }
 }
 #consultation, #order, #thanks {
     display: none;

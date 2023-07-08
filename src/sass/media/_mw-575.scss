@@ -100,6 +100,10 @@
             line-height: 20px;
             text-align: center;
         }
+        label.error {
+            font-size: 11px;
+            margin-bottom: 20px;
+        }
     }
     .feed-form {
         margin: 0 auto;
@@ -272,6 +276,10 @@
         &__descr {
             margin-top: 6px;
             font-size: 10px;
+        }
+        label.error {
+            font-size: 11px;
+            margin-bottom: 14px;
         }
     }
 }
