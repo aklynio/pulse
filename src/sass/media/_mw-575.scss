@@ -227,4 +227,25 @@
             text-align: left;
         }
     }
+    .footer {
+        height: 459px;
+        &__info {
+            padding: 32px 0;
+            width: 272px;
+        }
+        &__address {
+            font-size: 13px;
+            line-height: 13px;
+        }
+        &__phone {
+            margin: 23px 0;
+            font-size: 13px;
+            line-height: 13px;
+        }
+        &__social-item {
+            margin: 0 9px;
+            width: 35px;
+            height: 35px;
+        }
+    }
 }

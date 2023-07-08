@@ -240,4 +240,25 @@
             font-size: 12px;
         }
     }
+    .footer {
+        height: 510px;
+        &__info {
+            padding: 36px 0;
+            width: 336px;
+        }
+        &__address {
+            font-size: 14px;
+            line-height: 14px;
+        }
+        &__phone {
+            margin: 26px 0;
+            font-size: 14px;
+            line-height: 14px;
+        }
+        &__social-item {
+            margin: 0 10px;
+            width: 39px;
+            height: 39px;
+        }
+    }
 }

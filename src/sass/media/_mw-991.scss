@@ -178,4 +178,25 @@
             font-size: 13px;
         }
     }
+    .footer {
+        height: 567px;
+        &__info {
+            padding: 40px 0;
+            width: 373px;
+        }
+        &__address {
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &__phone {
+            margin: 29px 0;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &__social-item {
+            margin: 0 11px;
+            width: 43px;
+            height: 43px;
+        }
+    }
 }
