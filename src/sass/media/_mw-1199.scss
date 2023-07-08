@@ -118,6 +118,15 @@
                 margin-bottom: 18px;
             }
         }
+        &_modal {
+            margin-top: 23px;
+            input {
+                margin-bottom: 10px;
+                &:nth-child(3) {
+                    margin-bottom: 15px;
+                }
+            }
+        }
     }
     .carousel {
         padding: 73px 0;
@@ -256,6 +265,23 @@
             margin: 0 12px;
             width: 48px;
             height: 48px;
+        }
+    }
+    .modal {
+        padding: 31px 0;
+        width: 344px;
+        &__close {
+            right: -36px;
+            font-size: 38px;
+            line-height: 19px;
+        }
+        &__subtitle {
+            font-size: 17px;
+            line-height: 17px;
+        }
+        &__descr {
+            margin-top: 9px;
+            font-size: 13px;
         }
     }
 }
