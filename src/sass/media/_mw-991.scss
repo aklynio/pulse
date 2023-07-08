@@ -1,0 +1,157 @@
+@media (max-width: 991px) {
+    .container {
+        width: 690px;
+    }
+    .promo {
+        padding: 17px 0 76px 0;
+        &__wrapper {
+            margin-top: 74px;
+        }
+        &__header {
+            font-size: 34px;
+            line-height: 34px;
+        }
+        &__subheader {
+            margin-top: 13px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__icons {
+            margin-top: 49px;
+            width: 344px;
+        }
+        &__item {
+            font-size: 11px;
+        }
+        &__icon {
+            margin-bottom: 16px;
+            width: 36px;
+        }
+        &__link {
+            margin-top: 8px;
+            font-size: 13px;
+        }
+    }
+    .header {
+        &__logo {
+            width: 203px;
+        }
+        &__official {
+            font-size: 10px;
+            line-height: 10px;
+            span {
+                margin-top: 5px;
+                font-size: 14px;
+            }
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+    .button {
+        width: 124px;
+        height: 26px;
+        font-size: 10px;
+        &_main {
+            margin-top: 55px;
+            width: 243px;
+            height: 40px;
+            font-size: 13px;
+        }
+        &_submit {
+            width: 100%;
+            height: 47px;
+            font-size: 13px;
+        }
+        &_mini {
+            width: 121px;
+            height: 40px;
+            font-size: 13px;
+        }
+    }
+    .advantages {
+        padding: 59px 0 52px 0;
+        &__wrapper {
+            margin-top: 49px;
+        }
+        &__item {
+            width: 218px;
+        }
+        &__icon {
+            width: 57px;
+        }
+        &__subtitle {
+            margin-top: 24px;
+            font-size: 14px;
+        }
+        &__descr {
+            margin-top: 16px;
+            font-size: 12px;
+            line-height: 14px;
+        }
+    }
+    .title {
+        font-size: 24px;
+        line-height: 24px;
+        &_white {
+            font-size: 29px;
+            line-height: 44px;
+        }
+    }
+    .consultation {
+        padding: 66px 0 70px 0;
+        &__descr {
+            margin-top: 6px;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    .feed-form {
+        margin-top: 29px;
+        width: 246px;
+        input {
+            height: 44px;
+            font-size: 12px;
+            padding: 0 16px;
+            margin-bottom: 12px;
+            &:nth-child(3) {
+                margin-bottom: 16px;
+            }
+        }
+    }
+    .carousel {
+        padding: 66px 0;
+        &__inner {
+            width: 491px;
+        }
+        .slick-prev, .slick-next {
+            img {
+                width: 20px;
+            }
+        }
+        .slick-prev {
+            left: -46px;
+        }
+        .slick-next {
+            right: -46px;
+        }
+    }
+    .catalog {
+        padding-bottom: 49px;
+        &__tabs {
+            margin-top: 37px;
+        }
+        &__tab {
+            width: 180px;
+            height: 42px;
+            font-size: 14px;
+            line-height: 40px;
+        }
+        &__content {
+            margin-top: 46px;
+        }
+        &-item {
+            margin-bottom: 15px;
+        }
+    }
+}
