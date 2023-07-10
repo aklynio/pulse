@@ -15,6 +15,14 @@
     }
     &__icon {
         width: 70px;
+        &_animated {
+            img {
+                animation: heartbeat 1.5s ease infinite;
+                &:hover {
+                    animation-play-state: paused;
+                }
+            }
+        }
         img {
             width: 100%;
         }
