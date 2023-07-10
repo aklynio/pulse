@@ -101,20 +101,22 @@
             line-height: 14px;
             text-decoration-line: underline;
         }
-        &__list {
+        &__back-side {
             position: relative;
             width: 50%;
             margin-left: 20px;
-            margin-bottom: 0;
-            padding-right: 20px;
-            padding-left: 17px;
-            list-style-type: none;
             transition: 0.5s all;
             transform: translateX(0%);
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0;
             }
+        }
+        &__list {
+            margin-bottom: 0;
+            padding-right: 20px;
+            padding-left: 17px;
+            list-style-type: none;
             li {
                 position: relative;
                 margin-bottom: 10px;
