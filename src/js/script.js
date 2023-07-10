@@ -7,12 +7,14 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><img src="icons/right.png" alt="right"></button>'
     });
 
+
     // tabs
     $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
         $(this)
             .addClass('catalog__tab_active').siblings().removeClass('catalog__tab_active')
             .closest('div.container').find('div.catalog__content').removeClass('catalog__content_active').eq($(this).index()).addClass('catalog__content_active');
     });
+
 
     // catalog-item
     function toggleSlide(item) {
@@ -27,6 +29,7 @@ $(document).ready(function(){
 
     toggleSlide('.catalog-item__link');
     toggleSlide('.catalog-item__back');
+
 
     // modal
     $('[data-modal="consultation"]').on('click', function() {
@@ -43,6 +46,7 @@ $(document).ready(function(){
     $('.modal__close').on('click', function() {
         $('.overlay, .modal').fadeOut('slow');
     });
+
 
     // validation of forms
     function validateForms(form) {
@@ -76,8 +80,10 @@ $(document).ready(function(){
     validateForms('#consultation form');
     validateForms('#order form');
 
+
     // masked input
     $('input[name=phone]').mask("+7 (999) 999-99-99");
+
 
     // mail sending
     $('form').submit(function(e) {
@@ -100,6 +106,7 @@ $(document).ready(function(){
         return false;
     });
 
+
     // pageup
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1000) {
@@ -109,10 +116,15 @@ $(document).ready(function(){
         }
     });
 
+
     // smooth scroll
     $("a[href^='#']").click(function() {
         const _href = $(this).attr("href");
         $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
         return false;
     });
+
+
+    // wow.js
+    new WOW().init();
 });
